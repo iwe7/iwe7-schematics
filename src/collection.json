@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "iwe7-schematics": {
+      "aliases": ["iwe7"],
+      "description": "A blank schematic.",
+      "factory": "./iwe7-schematics/index#iwe7Schematics",
+      "schema": "./iwe7-schematics/schema.json"
+    }
+  }
+}
